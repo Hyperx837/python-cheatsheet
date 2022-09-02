@@ -38,6 +38,10 @@ There are two ways to create sets: using curly braces `{}` and the built-in func
 >>> s = {}  # this will create a dictionary instead of a set
 >>> type(s)
 # <class 'dict'>
+
+>>> s = set() # initialize an empty set
+>>> type(s)
+# set()
 ```
 
 ## Unordered collections of unique elements
